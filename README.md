@@ -2,6 +2,21 @@
 
 Harness AI advanced capabilities with C#. The Pythonic version of this repository is [here](https://github.com/antazo/ai-python).
 
+A valid subscription is needed for your own endpoints. The project uses virtual environments, continuous integration pipelines, and containerization as optional. This repository is automatically deployed to container registries (Docker Hub and ACR) through GitHub Actions workflows.
+
+Cognitive services used (so far):
+
+* Neural Machine Translation (NMT): Translator.
+* Convolutional Neural Networks (CNN): Computer Vision, Face.
+
+Technologies used: ASP.NET Core MVC.
+
+## Overview
+
+* [Installation](#installation)
+  * [Libraries](#libraries)
+* [Azure Portal](#azure-portal)
+
 ## Installation
 
 Clone (or fork) this git repository:
