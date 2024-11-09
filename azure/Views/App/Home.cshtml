@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Hello";
+    string name = ViewData["Name"] as string ?? "";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"] @name!</h1>
+        <p>These are some examples using Microsoft's Azure AI advanced capabilities:</p>
+        <p><a href="translator">Translator</a>: uses a Neural Machine Translation (NMT) model for translation, which analyzes the semantic context of the text and renders a more accurate and complete translation as a result.</p>
+        <p><a href="vision">Vision</a>: uses CNN (Convolutional Neural Networks), which is a type of deep learning network that is suited for image recognition, analysis and classification tasks.</p>
+        <p><a href="face">Face</a>: uses Vision to recognize people and their attributes in an image. This service might have limited access, it needs to be approved to use certain capabilities.</p>
+        <h5>NON-AI (yet):</h5>
+        <p><a href="game">Game</a>: Let's play rock, paper, scissors, lizard, Spock!</p>
+        <h5>REST:</h5>
+        <p><a href="planet_distances">/planet_distances</a>: Distances in JSON of all the planets from the Solar System to the Earth.</p>
+        <p>[<a href="swagger">swagger</a> page]</p>
+    </div>
+</body>
+</html>

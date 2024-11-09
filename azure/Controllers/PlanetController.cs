@@ -1,18 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
 namespace azure.Controllers
 {
-    public class HomeController : Controller
+    public class PlanetController : Controller
     {
-        [HttpGet("/")]
-        public IActionResult Index(string name = "visitor")
-        {
-            ViewData["Name"] = name;
-            return View();
-        }
-
-        [HttpGet("/planet_distances")]
         public IActionResult PlanetDistances()
         {
             var distances = new Dictionary<string, double>
