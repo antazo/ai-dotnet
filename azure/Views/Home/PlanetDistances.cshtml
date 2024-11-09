@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Planet Distances";
+    var distances = ViewData["Distances"] as Dictionary<string, double>;
+}
+
+<h1>Planet Distances</h1>
+<ul>
+    @foreach (var distance in distances)
+    {
+        <li>@distance.Key: @distance.Value million km</li>
+    }
+</ul>
