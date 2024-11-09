@@ -1,4 +1,4 @@
-# AI with DotNet (Cognitive Services)
+# AI with DotNet (Azure AI)
 
 Harness AI advanced capabilities with C#. The Pythonic version of this repository is [here](https://github.com/antazo/ai-python).
 
