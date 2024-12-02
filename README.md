@@ -42,7 +42,7 @@ dotnet build
 dotnet run
 ```
 
-Try it: <https://127.0.0.1/>
+Try it: <http://127.0.0.1/>
 
 ## Azure Portal
 
